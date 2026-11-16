@@ -1,0 +1,15 @@
+[run]
+omit =
+    manage.py
+    config/asgi.py
+    config/wsgi.py
+    config/celery.py
+    config/settings.py
+    */migrations/*
+    */apps.py
+    tests/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
